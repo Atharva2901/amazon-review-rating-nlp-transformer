@@ -1,0 +1,36 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model files (too large)
+models/
+*.bin
+*.pt
+*.pth
+
+# Data that shouldn't be uploaded
+data/data/raw/
+data/processed/final_dataset.csv
+data/model_predictions.csv
+
+# Colab and VS Code
+*.zip
+*.idea
+.vscode/
+
+# Logs
+logs_balanced/
+results_balanced/
+
