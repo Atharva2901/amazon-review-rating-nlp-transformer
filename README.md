@@ -75,9 +75,18 @@ All visuals are available inside the reports/ folder.
 
 - **Balanced RoBERTa model accuracy:** ~96%  
 - **Macro F1 score:** ~0.95  
+
+Here is the model's performance on the test set. The confusion matrix shows a strong ability to distinguish between all five-star ratings, with most errors being only one star off.
+
+![Model Confusion Matrix](./insights/conf_mat.JPG)
+
+The distribution of the model's predicted ratings also closely matches the true (oversampled) rating distribution.
+
+![Distribution of True vs Predicted Ratings](./insights/distribution.png)
+
 - Significant performance improvement after oversampling  
 - Strong alignment between predicted and true rating distributions  
-- Model successfully captures sentiment patterns in text reviews  
+- Model successfully captures sentiment patterns in text reviews
 
 ---
 
