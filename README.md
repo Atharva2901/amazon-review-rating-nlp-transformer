@@ -82,7 +82,7 @@ Here is the model's performance on the test set. The confusion matrix shows a st
 
 The distribution of the model's predicted ratings also closely matches the true (oversampled) rating distribution.
 
-![Distribution of True vs Predicted Ratings](./insights/distribution.png)
+<img src="./insights/distribution.png" alt="Distribution of True vs Predicted Ratings" width="500"/>
 
 - Significant performance improvement after oversampling  
 - Strong alignment between predicted and true rating distributions  
